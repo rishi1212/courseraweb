@@ -13,4 +13,4 @@ counts=[]
 for comment in comments:
     counts.append(int(comment['count']))
 
-print sum(counts)
+print(sum(counts))
